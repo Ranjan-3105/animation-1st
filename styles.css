@@ -1,0 +1,256 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "General Sans";
+  box-sizing: border-box;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+#mini-circle{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    z-index: 9999;
+    border-radius: 50%;
+    background-color: white;
+    transition: all cubic-bezier(0.19,1, 0.22 , 1) 0.7s;
+}
+
+.bounding{
+    width: fit-content;
+    overflow: hidden;
+
+}
+
+.bounding .bounding-elem{
+    transform: translateY(100%);
+}
+
+#main{
+    width:100%;
+    background-color: black;
+}
+
+#hero{
+    position: relative;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+#nav{
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+}
+
+#nav a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+#heading{
+    margin-top: 90px;
+}
+#heading h1{
+    margin-left: 30px;
+    opacity: 0.6;
+    line-height: 1;
+    font-family: "General Sans Medium";
+    font-size: 10vw;
+    text-transform: uppercase;
+    font-weight: 900 ;
+
+}
+
+#heading #secondh1{
+    margin-left: 130px;
+}
+
+#blocktext{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background-color: black;
+    width: fit-content;
+}
+#blocktext h5{
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: right;
+}
+
+#chotiheadings{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 80px;
+    padding-right: 50px;
+}
+
+#chotiheadings h5{
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 1.5vw;
+    text-align: right;
+}
+
+#herofooter{
+    padding: 0 2vw;
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#herofooter a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+#herofooter .circle{
+    width: 20px;
+    height: 20px;
+    background-color: #888;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#iconset{
+    display: flex;
+    gap:5px;
+}
+
+#second{
+    color: white;
+    padding-right: 10vw;
+    padding-top: 200px ;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+.elem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 4vw 3.5vw;
+    padding-right: 0;
+    border-top: 1px solid #888;
+}
+
+.elem h1{
+    font-size: 8vw;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+.elemlast{
+    border-bottom: 1px solid #888;
+}
+
+.elem img{
+    z-index: 999;
+    position: absolute;
+    height: 140%;
+    display: none;
+}
+
+
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    width: 100%;
+    padding:10vw 5vw;
+    padding-left: 40vw;
+    background-color: black;
+    color: white;
+}
+
+#about img{
+    width: 200px;
+}
+
+#textabout{
+    width: 25rem;
+}
+
+#textabout h5{
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin-bottom: 10px;
+}
+
+#textabout p{
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+#textabout a{
+    padding: 12px 22px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.subscribe{
+    padding: 30px 30px;
+    background-color: black;
+    color: white;
+    padding-bottom: 3vw;
+}
+
+.subscribe h5{
+  opacity: .6;
+  margin-bottom: 10px;
+}
+
+.subscribe h3{
+    font-size: 14px;
+}
+
+
+#footer{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px 30px;
+   color: white;
+   background-color: black;
+}
+
+#footer-right{
+display: flex;
+gap: 20px;
+}
+#footer-left{
+    display: flex;
+    gap: 20px;
+}
+
+#footer a{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+
+}
